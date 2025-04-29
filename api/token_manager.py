@@ -10,14 +10,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config import ENCRYPTION_KEY, appIdHash, pin
 
 
-# ENCRYPTION_KEY = '5bKQxqN9tRQfRf7QmBC9uQn8HkGHw-1YJ44N3lq5p8k='
-# appIdHash = '0ee126cab551557e28a3af3749e2611079f5d982c545d88a1b8f7d879ece15b8'
-# pin = '5248'
-
-# fernet = Fernet(ENCRYPTION_KEY.encode())
-# TOKEN_FILE = "api/token_data.json"
-
-# IST = pytz.timezone("Asia/Kolkata")
 
 class TokenManager:
     def __init__(self):
