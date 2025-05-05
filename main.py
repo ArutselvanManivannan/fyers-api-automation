@@ -4,8 +4,8 @@ from api.fyers_data import Fyers_Data
 from utils.indicators import *
 from utils.get_data import *
 
-from_date, to_date = '25', '28' #Hardcode dates
-from_month, to_month = '04', '04' #Hardcode month(s)
+from_date, to_date = '30', '02' #Hardcode dates
+from_month, to_month = '04', '05' #Hardcode month(s)
 
 fyers, access_token = initiate_auth()
 
